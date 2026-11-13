@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Explore Selwick's portfolio of web apps, desktop software, mobile apps and websites.">
+<title>Our Projects – Selwick</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bar"></div>
+<header id="siteHeader"><div class="nav">
+<a href="index.html#top" class="brand">Selwick</a>
+<nav class="m project-nav"><a href="index.html#services">Services</a><a class="on" href="projects.html">Projects</a><a href="index.html#why-us">Why Us</a><a href="index.html#contact">Contact</a></nav>
+<a href="index.html#contact" class="btn b-w">Start a project</a>
+<button class="burger" id="menuToggle" aria-label="Menu">☰</button>
+</div></header>
+<main>
+<section class="projects-hero"><div class="wrap">
+<span class="eye" style="color:var(--lime)">Our work</span>
+<h1>Ideas turned into <em>real products.</em></h1>
+<p class="lead">A collection of apps, software and websites we've designed and built. Explore the work and open live projects directly.</p>
+<div class="cta"><a href="#all-projects" class="btn b-l">Explore projects ↓</a><a href="index.html#contact" class="btn b-o">Build something with us</a></div>
+</div></section>
+<section class="project-page" id="all-projects"><div class="wrap">
+<div class="project-toolbar"><div class="project-filters">
+<button class="active" data-filter="all">All projects</button>
+<button data-filter="apps">Desktop &amp; Web Apps</button>
+<button data-filter="mobile">Mobile Apps</button>
+<button data-filter="websites">Websites</button>
+</div><div class="project-count"><span id="projectCount">29</span> projects in the portfolio</div></div>
+<div id="projectGrid"></div>
+<a class="back-home" href="index.html">← Back to Selwick home</a>
+</div></section>
+</main>
+<footer style="background:#120E33;padding:32px 40px;color:#C9C3F0;text-align:center">© 2026 Selwick. All rights reserved. <a href="index.html" style="color:var(--lime)">Home</a></footer>
+<script src="projects.js"></script>
+</body></html>
